@@ -9,16 +9,16 @@
         <icon src="https://example.com/beinsports_logo.png" />
     </channel>
 
-    <programme start="20250323223000 +0000" stop="20250323230000 +0000" channel="beinsports1">
+    <programme start="20250323253000 +0000" stop="20250323260000 +0000" channel="beinsports1">
         <title>Program 1</title>
-        <desc>BEIN SPORTS 1 kanalındaki 22:30 - 23:00 programı.</desc>
+        <desc>BEIN SPORTS 1 kanalındaki 01:30 - 02:00 programı (GMT+3).</desc>
         <category>Spor</category>
         <language>tr</language>
     </programme>
 
-    <programme start="20250323230000 +0000" stop="20250323233000 +0000" channel="beinsports1">
+    <programme start="20250323260000 +0000" stop="20250323263000 +0000" channel="beinsports1">
         <title>Program 2</title>
-        <desc>BEIN SPORTS 1 kanalındaki 23:00 - 23:30 programı.</desc>
+        <desc>BEIN SPORTS 1 kanalındaki 02:00 - 02:30 programı (GMT+3).</desc>
         <category>Spor</category>
         <language>tr</language>
     </programme>
