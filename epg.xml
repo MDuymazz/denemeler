@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv>
-    <channel id="BEIN SPORTS 1">
+    <channel id="beinsports1">
         <display-name>BEIN SPORTS 1</display-name>
-        <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTy7p8ekHUrcrf_T81XNSdjepENLsNSd791w&s" />
+        <tvg-name>BEIN SPORTS 1</tvg-name>
+        <tvg-country>TR</tvg-country>
+        <tvg-language>Turkish</tvg-language>
+        <group-title>CANLI</group-title>
+        <icon src="https://example.com/beinsports_logo.png" />
     </channel>
-    
-    <programme start="20250323223000 +0000" stop="20250323233000 +0000" channel="1">
+
+    <programme start="20250323223000 +0000" stop="20250323230000 +0000" channel="beinsports1">
         <title>Program 1</title>
-        <desc>Channel 1'in 22:30-23:00 programı.</desc>
-        <category>Haber</category>
+        <desc>BEIN SPORTS 1 kanalındaki 22:30 - 23:00 programı.</desc>
+        <category>Spor</category>
         <language>tr</language>
     </programme>
 
-    <programme start="20250323233000 +0000" stop="20250323233000 +0000" channel="1">
+    <programme start="20250323230000 +0000" stop="20250323233000 +0000" channel="beinsports1">
         <title>Program 2</title>
-        <desc>Channel 1'in 23:00-23:30 programı.</desc>
-        <category>Haber</category>
+        <desc>BEIN SPORTS 1 kanalındaki 23:00 - 23:30 programı.</desc>
+        <category>Spor</category>
         <language>tr</language>
-    
     </programme>
+
+    <!-- Diğer kanallar ve programlar buraya eklenebilir -->
 </tv>
